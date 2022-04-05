@@ -5,8 +5,8 @@
   "private": "true",
   "scripts": {
     "lint": "next lint",
-    "dev": "next dev",
-    "start": "next start",
+    "dev": "cross-env NODE_ENV=development next dev",
+    "start": "cross-env NODE_ENV=production next start",
     "build": "next build"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/antonpalermo/next-dragonpay-example#readme",
   "dependencies": {
+    "formik": "^2.2.9",
     "next": "^12.1.4",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
@@ -28,6 +29,7 @@
   "devDependencies": {
     "@types/node": "^17.0.23",
     "@types/react": "^17.0.43",
+    "cross-env": "^7.0.3",
     "eslint": "8.12.0",
     "eslint-config-next": "12.1.4",
     "prettier": "^2.6.2",
