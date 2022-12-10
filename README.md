@@ -1,2 +1,2 @@
 # next-dragonpay-example
-Consuming Dragonpay API using NextJS
+Consuming Dragonpay API using NextJS for collection 
